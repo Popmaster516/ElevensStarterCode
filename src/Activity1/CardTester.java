@@ -6,5 +6,7 @@ public class CardTester {
         Card test2 = new Card("Three","Spades",3);
         Card test3 = new Card("Seven","Hearts",7);
         System.out.println(test1.toString());
+        System.out.println(test2.toString());
+        System.out.println(test3.toString());
     }
 }
