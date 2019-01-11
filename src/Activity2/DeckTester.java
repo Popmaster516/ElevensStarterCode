@@ -10,7 +10,14 @@ public class DeckTester {
      *	@param args is not used.
      */
     public static void main(String[] args) {
-		/* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
+        String[] suits = {"Hearts", "Diamonds"};
+        String[] ranks = {"A", "B", "C"};
+        int[] values = {1,2,3};
+        Deck testDeck = new Deck(ranks,suits,values);
+        System.out.println("  deal: " + testDeck.deal());
+        System.out.println("  toString:\n" + testDeck.toString());
+        System.out.println("  isEmpty: " + testDeck.isEmpty());
+        System.out.println("  size: " + testDeck.size());
+
     }
 }
-
